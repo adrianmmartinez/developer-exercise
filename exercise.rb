@@ -40,10 +40,8 @@ class Exercise
     sum = 0
 
     while idx < nth
-
       sum += fibonacci(idx) if fibonacci(idx).even?
       idx += 1
-
     end
 
     sum
